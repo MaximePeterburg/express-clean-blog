@@ -1,8 +1,28 @@
 body {
-  padding: 50px;
   font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
 }
 
 a {
   color: #00B7FF;
+}
+
+header{
+  height: 532px;
+  width: cover;
+  background-image: url(https://images.all-free-download.com/images/graphiclarge/working_place_vector_illustration_with_colored_style_6824781.jpg);
+  width: 100%;
+  background-size: cover;
+  background-position: center center;
+  padding-bottom: 225px;
+  padding-top: 20px;
+}
+.header-text{
+  text-align: center;
+}
+.navbar{
+  transition: top 0.3s;
+}
+
+.navbar-brand{
+  font-family: 'Acme', sans-serif
 }
